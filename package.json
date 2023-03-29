@@ -1,0 +1,26 @@
+{
+  "name": "NodejsTutalrial",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is tutorial NodeJs",
+  "main": "server.js",
+  "author": "Le Van Xuan",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "node inspect server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
